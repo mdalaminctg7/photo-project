@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="jquery.flipster.min.css">
+	<link rel="icon" type="image/x-icon" href="fav.jpg">
+</head>
+<body>
+
+	<div class="hero">
+		<div class="carousel">
+			<ul>
+				<li><img src="img/1.jpg"></li>
+				<li><img src="img/2.jpg"></li>
+				<li><img src="img/3.jpg"></li>
+				<li><img src="img/4.jpg"></li>
+				<li><img src="img/5.jpg"></li>
+				<li><img src="img/6.jpg"></li>
+				<li><img src="img/7.jpg"></li>
+				<li><img src="img/1.jpg"></li>
+				<li><img src="img/2.jpg"></li>
+				<li><img src="img/3.jpg"></li>
+				<li><img src="img/4.jpg"></li>
+				<li><img src="img/5.jpg"></li>
+				<li><img src="img/6.jpg"></li>
+				<li><img src="img/7.jpg"></li>
+				<li><img src="img/1.jpg"></li>
+				<li><img src="img/2.jpg"></li>
+				<li><img src="img/3.jpg"></li>
+				<li><img src="img/4.jpg"></li>
+				<li><img src="img/5.jpg"></li>
+				<li><img src="img/6.jpg"></li>
+				<li><img src="img/7.jpg"></li>
+			</ul>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="jquery.flipster.min.js"></script>
+	<script>
+    $('.carousel').flipster({
+    	style:"carousel",
+    	spacing: -0.3,
+    });
+	</script>
+</body>
+</html>
